@@ -1,12 +1,15 @@
 <script>
 	import Menu from './Menu.svelte';
 	import Projects from './Projects.svelte';
+	import About from './About.svelte';
 	import Contact from './Contact.svelte';
 </script>
 
 <main>
 	<Menu />
-	<p>I'm Michael, a full stack developer</p>
+	<About />
+	<Projects />
+	<Contact />
 </main>
 
 <style>
